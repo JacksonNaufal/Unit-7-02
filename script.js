@@ -14,9 +14,9 @@ function button () {
   // Display Negative Text in red
     document.getElementById('para').style.color = 'red'
   } else {
-   document.getElementById('para').innerHTML =
+    document.getElementById('para').innerHTML =
   'Positive'
   // determine if number is above 0 and if so positive is written in green
     document.getElementById('para').style.color = 'green'
   }
-} 
+}
